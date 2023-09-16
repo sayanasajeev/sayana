@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+
+    body{
+        background-image:url("book.png") ;
+        background-size:cover; 
+    }
+header{
+    background-color:black;
+    height: 80px;
+}
+.navigation{
+    float:right;
+    margin-top:30px;
+    margin-right: 60px;
+
+}
+.navigation a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    margin:5px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.navigation a{
+    background-color:red ;
+    color:teal;
+      
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top:10px ;
+    height: 50px;
+    width: 50px;
+}
+/*Aside styling start*/
+.side
+{
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:50px;
+   /* border:2px solid black;*/
+    float: left;
+    
+}
+.sideli{
+    padding: 2px;
+    list-style-type: square;
+}
+/*aside styling ends*/
+/*login style star */
+.my_login
+{
+    border: 2px solid ;
+    float: right;
+    margin-top: 60px;
+    background-color: beige;
+    padding: 30px;
+    height: 15em;
+    margin-right: 30px;
+}
+
+.my_login h1{
+    text-align:center;
+}
+#logg{
+
+    background-color: blue;
+    width: 100%;
+    border: none;
+    height: 1.5em;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*login style ends*/
+/*container style stat*/
+
+.boxa{
+    background-color:yellow;
+    border:2px  solid  red;
+width: 200px;
+float: left;
+margin-bottom: 20px;
+height: 12em;
+margin-top: 450px;
+padding: 20px;
+margin-left: 10px;
+}
+.boxb{
+background-color: bisque;
+border: 2px solid black;
+width: 200px;
+float: left;
+margin-bottom: 30px;
+height: 12em;
+margin-top: 450px;
+padding: 20px;
+margin-left: 10px;
+}
+
+/*container style ends here */
